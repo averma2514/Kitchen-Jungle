@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 1.5;
+}
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+
+
+.navbar0{
+    height: 80px;
+    overflow: hidden;
+    background-color: #000;
+}
+.navbar0 a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar0 a:hover {
+    background-color: #ffa500;
+    border-radius: 10%;
+    color: #fff;
+  }
+
+
+.profile_icone{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.menu{
+    color:#fff;
+    text-align: center;
+    background-color: #ffa500;
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 2.5em;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    font-size: 35px;
+    line-height: 1em;
+    text-align: center;
+
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    height: auto;
+  }
+
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .column button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .column button:hover {
+    opacity: 0.7;
+  }
+  .card > img{
+    width: 250px;
+    height: 164px;
+    object-fit: cover;
+}
+.card > img:hover{
+    transform: scale(1.04);
+}
+
+.text{
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-btn{
+  width:  25%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 15px 40%;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.submit-btn :hover{
+  text-decoration-line: none;
+}

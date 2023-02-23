@@ -1,0 +1,10 @@
+*{
+    margin: 0PX;
+    padding: 0pX;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    color: #ffa500;
+    border-color: #000;
+}

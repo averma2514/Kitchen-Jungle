@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  /* background: url(background.jpg); */
+  /* background-repeat: no-repeat;
+  background-size: 96pc 46pc; */
+  /* background: linear-gradient(to right, #ff105f,#ffad06),url(background.jpg); */
+    /* font-family: 'Baloo Chettan 2', cursive; */
+  line-height: 1.5;
+}
+.navbar{
+    height: 80px;
+    overflow: hidden;
+    background-color: #000;
+}
+.navbar a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background-color: #ffa500;
+    border-radius: 10%;
+    color: #fff;
+  }
+
+
+.profile_icone{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.menu{
+    color:#fff;
+    text-align: center;
+    background-color: #ffa500;
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    line-height: 2.5em;
+}
+.colm{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    font-size: 35px;
+    line-height: 1em;
+    text-align: center;
+}
+  
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  height: auto;
+  } */
+img{
+    max-width: 100%;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+    
+    object-fit: cover;
+}
+.navbar_items{
+  float: right;
+  margin: 0 0 0 auto;
+}
+img:hover{
+  transform: scale(1.04);
+}
+h2{
+  text-decoration: none;
+  color: #fff;
+}
+h2:active{
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
